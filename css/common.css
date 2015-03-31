@@ -4,6 +4,10 @@ html {
 	font: normal 100%/1.4 'Helvetica Neue',serif;
 }
 
+body {
+	padding-top: 70px;
+}
+
 .current {
 	background-color: red;
 	color: white;
