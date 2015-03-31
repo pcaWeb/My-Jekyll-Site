@@ -13,18 +13,23 @@
 	<h1>My Test Website</h1>
 	{% include nav.html navclass='nav-top' %}
 </header>
+<div class="main"></div>
+<div class="page row" id="mission">
 
 {{content}}
 
+</div>
+
 <footer>
 	{% include nav.html navclass='nav-bottom' %}
-	<p>&copy; 2015 My Jekyll Project</p>
+	<p>&copy; 2015 My Jekyll Project &middot; pcaWeb</p>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="{{site.baseurl}}/js/myscript.js"></script>
+</div>
 </div>
 </body>
 </html>
