@@ -1,7 +1,11 @@
-	<nav class="navbar navbar-default {{include.navclass}}">
-		<ul class="nav navbar-nav">
-			<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}active{% endif %}">Home</a></li>
-			<li><a href="{{site.baseurl}}/stuff.html" class="{% if page.url == '/stuff.html' %}active{% endif %}">Stuff</a></li>
-			<li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}active{% endif %}">News</a></li>
-		</ul>
+	<nav class="navbar navbar-default role="navigation" {{include.navclass}}">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}active{% endif %}">Home</a></li>
+				<li><a href="{{site.baseurl}}/stuff.html" class="{% if page.url == '/stuff.html' %}active{% endif %}">Stuff</a></li>
+				<li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}active{% endif %}">News</a></li>
+			</ul>		
+
+		</div>
+
 	</nav>
