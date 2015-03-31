@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>My Jekyll Site</title>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
+    <meta charset="utf-8">
+    <title>My Jekyll Site</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
+
 <body>
-<div class="container-fluid">
-<header>
-	<h1>My Test Website</h1>
-	{% include nav.html navclass='nav-top' %}
-</header>
-<div class="main">
-<div class="page row" id="mission">
 
-{{content}}
+    <header>
+        <h1>My Test Website</h1> {% include nav.html navclass='nav-top' %}
+    </header>
+    <div class="main">
+        <div class="page row" id="mission">
 
-</div>
+            {{content}}
 
-<footer>
-	{% include nav.html navclass='nav-bottom' %}
-	<p>&copy; 2015 My Jekyll Project &middot; pcaWeb</p>
-</footer>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="{{site.baseurl}}/js/myscript.js"></script>
-</div>
-</div>
+        </div>
+
+        <footer>
+            {% include nav.html navclass='nav-bottom' %}
+            <p>&copy; 2015 My Jekyll Project &middot; pcaWeb</p>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="{{site.baseurl}}/js/myscript.js"></script>
+
+    </div>
+
 </body>
+
 </html>
