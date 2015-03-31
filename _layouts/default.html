@@ -15,15 +15,17 @@
         <h1>My Test Website</h1> {% include nav.html navclass='nav-top' %}
     </header>
     <div class="main">
-        <div class="page row" id="mission">
+        <div class="page" id="mission">
 
             {{content}}
 
         </div>
 
         <footer>
-            {% include nav.html navclass='nav-bottom' %}
-            <p>&copy; 2015 My Jekyll Project &middot; pcaWeb</p>
+        	<div class="content container">
+	            {% include nav.html navclass='nav-bottom' %}
+	            <p>&copy; 2015 My Jekyll Project &middot; pcaWeb</p>
+            </div>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
