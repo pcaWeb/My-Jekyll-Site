@@ -67,3 +67,10 @@ footer .navbar-default {
 	padding: 50px 0;
 
 }
+
+#mission {
+	background-color: #E4D29D;
+	background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+	border-top: 20px solid rgba(238, 200, 86, .5);
+
+}
