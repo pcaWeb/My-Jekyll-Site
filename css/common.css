@@ -60,7 +60,7 @@ footer {
 
 footer .navbar-default {
 	background: transparent;
-	border-color: none!important;
+	border: none!important;
 }
 
 .page {
