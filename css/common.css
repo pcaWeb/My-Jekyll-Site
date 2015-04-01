@@ -52,6 +52,11 @@ header .navbar-default {
 
 }
 
+footer {
+	background-color: black;
+	color: white;
+}
+
 footer .navbar-default {
 	background: transparent;
 	border-color: white;
