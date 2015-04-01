@@ -26,3 +26,7 @@ body {
 .nav-top {
 	font-size: 1.25rem;
 }
+
+footer .navbar-default {
+	background: transparent;
+}
