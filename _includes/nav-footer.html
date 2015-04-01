@@ -1,15 +1,15 @@
+	<div>Call us at 111-11111 whenever</div>
+	
 	<nav class="navbar navbar-default role="navigation" {{include.navclass}}">
-		<div class="container">
-			<div class="navbar-header">
-				<h1 class="navbar-brand">My Test Website</h1>
-			</div>
+		
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}active{% endif %}">Home</a></li>
 				<li><a href="{{site.baseurl}}/stuff.html" class="{% if page.url == '/stuff.html' %}active{% endif %}">Stuff</a></li>
 				<li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}active{% endif %}">News</a></li>
+				<li><a href="{{site.baseurl}}/terms.html" class="{% if page.url == '/terms.html' %}active{% endif %}">Terms of Service</a></li>
+				<li><a href="{{site.baseurl}}/privacy.html" class="{% if page.url == '/privacy.html' %}active{% endif %}">Privacy</a></li>
 			</ul>		
 
-		</div>
+		
 
 	</nav>
-	<p>&copy; 2015 My Jekyll Project &middot; pcaWeb</p>
