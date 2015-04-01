@@ -19,6 +19,11 @@ body {
 	list-style-type: none;
 }
 
+.navbar {
+	margin-bottom: 0px;
+
+}
+
 .nav li {
 	display: inline-block;
 }
